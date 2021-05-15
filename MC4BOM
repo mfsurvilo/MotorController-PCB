@@ -1,0 +1,53 @@
+Part	Value	Device	Package	Description	DESCRIPTION2	HEIGHT	MANUFACTURER_NAME	Price	MANUFACTURER_PART_NUMBER	URL
+1N5408	1N5408	1N5400	DO201-15	DIODE				 $0.18 	2368-1n5408-nd	https://www.digikey.com/en/products/detail/nte-electronics-inc/1N5408/11645287
+C1	33uF/450V	CPOL-USE5-13	E5-13	"POLARIZED CAPACITOR, American symbol"				 $1.72 	EKXL451ELL330MK25S	https://www.digikey.com/en/products/detail/united-chemi-con/EKXL451ELL330MK25S/8543752?s=N4IgTCBcDaIKwDY4Fo4AYAsBOZA7AJiALoC%2BQA
+C2	470uF/35V	CPOL-USE5-10.5	"E5-10,5"	"POLARIZED CAPACITOR, American symbol"				 $0.46 	732-8743-1-ND	https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860010575013/5726984
+C3	220uF/35V	CPOL-USE5-10.5	"E5-10,5"	"POLARIZED CAPACITOR, American symbol"				 $0.59 	399-6122-ND	https://www.digikey.com/en/products/detail/kemet/ESY227M035AH1AA/2712528?s=N4IgTCBcDaIMwE4EFoBsBGMZkDsAmIAugL5A
+C4	.1uF/310VAC	C-US150-091X182	C150-091X182	"CAPACITOR, American symbol"				 $0.29 	CMPPAC310V104K10S6	https://www.digikey.com/en/products/detail/surge/cmppac310v104k10s6/12710118
+C5	10uF/450V	CPOL-USE5-10.5	"E5-10,5"	"POLARIZED CAPACITOR, American symbol"				 $0.72 	1572-1650-ND	https://www.digikey.com/en/products/detail/illinois-capacitor/106CKS450MLU/5410637
+C6	22pF	C-US025-024X044	C025-024X044	"CAPACITOR, American symbol"						
+C7	1000pF/400VAC	C-US075-052X106	C075-052X106	"CAPACITOR, American symbol"				 $0.27 	399-9464-1-ND	https://www.digikey.com/en/products/detail/kemet/C901U102MYVDBA7317/3645172
+C8	270uF/16V SS	CPOL-USE2.5-6	"E2,5-6"	"POLARIZED CAPACITOR, American symbol"				 $0.47 	A750EM277M1CAAE015	https://www.digikey.com/en/products/detail/kemet/A750EM277M1CAAE015/13420081
+C9	150uF/35V	CPOL-USE3.5-8	"E3,5-8"	"POLARIZED CAPACITOR, American symbol"				 $0.35 	1189-1288-ND	https://www.digikey.com/en/products/detail/rubycon/35YXG150MEFC8X11-5/3134244
+C10	10uF	C-US025-024X044	C025-024X044	"CAPACITOR, American symbol"						
+C11		C-US025-024X044	C025-024X044	"CAPACITOR, American symbol"						
+C12	10uF	C-US025-024X044	C025-024X044	"CAPACITOR, American symbol"						
+C13	10uF	C-US025-024X044	C025-024X044	"CAPACITOR, American symbol"						
+C14	100nF	C-US025-024X044	C025-024X044	"CAPACITOR, American symbol"						
+C15	22pF	C-US025-024X044	C025-024X044	"CAPACITOR, American symbol"						
+CAL._HEADER		PINHD-1X2	1X02	PIN HEADER						
+CRYSTAL	16Mhz	XTAL/S	QS	CRYSTAL				 $0.32 	535-9041-ND	https://www.digikey.com/en/products/detail/abracon-llc/ABL-16-000MHZ-B2/675236
+CY1	2.2nF/400VAC	CYYC10B4	YC10B4	Y CAPACITOR				 $0.46 	732-8743-1-ND	https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860010575013/5726984
+D1	SA30A	ZENER-DIODEZD-7.5	ZDIO-7.5	Z-Diode				 $0.43 	SA30ALFCT-ND	https://www.digikey.com/en/products/detail/littelfuse-inc/SA30A/688259
+D2	SA7.0CA	ZENER-DIODEZD-7.5	ZDIO-7.5	Z-Diode				 $0.47 	SA7.0CA-E3/54	https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/SA7-0CA-E3-54/2146118
+F1	"FUSESH22,5"	"FUSESH22,5"	"SH22,5"	Fuse				 $0.91 	486-1258-ND	https://www.digikey.com/en/products/detail/schurter-inc/0031-8201/669925?s=N4IgTCBcDaIBxgAwEYAEBlAxgCwK4CcAXAU3xAF0BfIA
+F2	1A/300V	"FUSESH22,5"	"SH22,5"	Fuse				 $0.91 	486-1258-ND	https://www.digikey.com/en/products/detail/schurter-inc/0031-8201/669925?s=N4IgTCBcDaIBxgAwEYAEBlAxgCwK4CcAXAU3xAF0BfIA
+FAST		TRIM_US-CT6	CT6	POTENTIOMETER						
+H1	MOUNT-PAD-SQUARE3.6	MOUNT-PAD-SQUARE3.6	"3,6-PAD-SQUARE"	"MOUNTING PAD, square"						
+H2	MOUNT-PAD-SQUARE3.6	MOUNT-PAD-SQUARE3.6	"3,6-PAD-SQUARE"	"MOUNTING PAD, square"						
+IC1	MEGA8-P	MEGA8-P	DIL28-3	MICROCONTROLLER				 $2.92 	ATMEGA8-16PU-ND	https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA8-16PU/739787
+J1	NMJ6HCD2-RM	NMJ6HCD2-RM	NMJ6HCD2RM	"NMJ6HCD2-RM Phone Connectors 1/4 STERO JCK SWTCH FULL TRD NSE PC HORZ"""	"NMJ6HCD2-RM Phone Connectors 1/4 STERO JCK SWTCH FULL TRD NSE PC HORZ"""	15.67mm	Neutrik		NMJ6HCD2-RM	https://www.mouser.co.uk/ProductDetail/Neutrik/NMJ6HCD2-RM?qs=%252B86TLfaev28zLpqKj2fOGg%3D%3D
+JP1		PINHD-2X2	2X02	PIN HEADER						
+KK1	SK104	SK104	SK104	HEATSINK manufacturer Fischer/distributor Buerklin				 $2.80 	SK104 25 4STS	https://www.arrow.com/en/products/sk104254sts/fischer-elektronik
+L1	2.2uH(max 22mOhm)	L-USTJ5-U1	TJ5-U1	"INDUCTOR, American symbol"				 $2.31 	595-1721-ND	https://www.digikey.com/en/products/detail/signal-transformer/HCTI-22-16-4/7362972?s=N4IgTCBcDaIKwE44FoCMB2MrkDkAiIAugL5A
+L2	1.2mH (min 0.4A max 4Ohm)	L-US6000-XXX-RC	6000-XXXX-RC	"INDUCTOR, American symbol"				 $1.07 	308-2336-ND	https://www.digikey.com/en/products/detail/sumida-america-components-inc/RCP1317NP-122L/4356405?s=N4IgTCBcDaIMwAYAcBaMc4DYUDsAmIAugL5A
+L3	1.2mH/4Ohm Max/0.2A Min)	L-US6000-XXX-RC	6000-XXXX-RC	"INDUCTOR, American symbol"				 $1.07 	308-2336-ND	https://www.digikey.com/en/products/detail/sumida-america-components-inc/RCP1317NP-122L/4356405?s=N4IgTCBcDaIMwAYAcBaMc4DYUDsAmIAugL5A
+L5	4.7uH/60mOhm Max/2.2A Min	L-US0207/2V	0207/2V	"INDUCTOR, American symbol"				 $0.46 	RLB0914-4R7ML-ND	https://www.digikey.com/en/products/detail/bourns-inc/RLB0914-4R7ML/2352783
+MOTOR_CONNECTOR	641963-1	641963-1	641963-1_TYC					 $0.81 	641963-1	https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/641963-1/297690?s=N4IgTCBcDaIGwBYCMBOOBmAtEkBdAvkA
+OPTOISOLATOR	SFH619A	SFH619A-ND	SFH619A	OptoIsolator				 $1.07 	`	https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/SFH619A/4074964
+PROGRAMMING_HEADER		PINHD-2X3	2X03	PIN HEADER						
+PS1	PBO-15C-24	PBO-15C-24	CONV_PBO-15C-24	Check prices	"15 W, 85 ~ 305 Vac Input, Single Output, Open Frame, Board Mount, Ac-Dc Power Supply"			 $7.42 	PBO-15C-24	https://www.digikey.com/en/products/detail/cui-inc/PBO-15C-24/13530604
+Q1	IRF540	IRF540	TO220BV	HEXFET Power MOSFET				 $1.07 	IRF540NPBF-ND	https://www.digikey.com/en/products/detail/infineon-technologies/IRF540NPBF/811869
+R1	10D-10	"THERMISTOR-7,5"	"R-7,5"	THERMISTOR				 $0.40 	317-1161-ND	https://www.digikey.com/en/products/detail/cantherm/MF72-010D9/1190936?s=N4IgTCBcDaIIwAYAiBaAnCAugXyA
+R2	1K	R-US_0204/7	0204/7	"RESISTOR, American symbol"						
+R3	7.5k	R-US_0204/7	0204/7	"RESISTOR, American symbol"						
+R4	12Ohm/3W	R-US_0617/22	0617/22	"RESISTOR, American symbol"				 $0.45 	280-cr5-12-rc	https://www.digikey.com/en/products/detail/280-CR5-12-RC/2197-280-CR5-12-RC-ND/10486225
+R5	220	R-US_0204/7	0204/7	"RESISTOR, American symbol"						
+R6	5K	R-US_0204/7	0204/7	"RESISTOR, American symbol"						
+R7	7.5k	R-US_0204/7	0204/7	"RESISTOR, American symbol"						
+RESET_SWITCH		10-XX	B3F-10XX	OMRON SWITCH				 $0.17 	B3F-1052M	https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1052M/13673595
+SLOW	10k	TRIM_US-CT6	CT6	POTENTIOMETER				 $0.78 	CT6EP103	https://www.digikey.com/en/products/detail/nidec-copal-electronics/CT6EP103/738304
+U$1	L503-13B05R$3	L503-13B05R$3	LS03-13BO5R3	5V AC-DC PS				 $2.32 	LS03-13BO5	https://www.digikey.com/en/products/detail/mornsun-america-llc/LS03-13B05R3/13531098
+VOLTAGE_REGULATOR1	7805TV	7805TV	TO220V	Positive VOLTAGE REGULATOR				 $0.17 	7805TV	https://www.digikey.com/en/products/detail/on-semiconductor/NCP7805ETG/13466572
+										
+										
