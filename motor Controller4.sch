@@ -75,7 +75,7 @@
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="yes"/>
@@ -27865,14 +27865,13 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/289/st-nmj6hcd2-1842677.p
 <wire x1="111.76" y1="137.16" x2="111.76" y2="132.08" width="0.1524" layer="94"/>
 <wire x1="111.76" y1="132.08" x2="137.16" y2="132.08" width="0.1524" layer="94"/>
 <wire x1="137.16" y1="132.08" x2="137.16" y2="137.16" width="0.1524" layer="94"/>
-<wire x1="60.96" y1="137.16" x2="60.96" y2="132.08" width="0.1524" layer="94"/>
-<wire x1="60.96" y1="132.08" x2="60.96" y2="63.5" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="132.08" x2="53.34" y2="63.5" width="0.1524" layer="94"/>
 <wire x1="-43.18" y1="50.8" x2="-86.36" y2="50.8" width="0.1524" layer="94"/>
 <wire x1="-86.36" y1="132.08" x2="-73.66" y2="132.08" width="0.1524" layer="94"/>
 <wire x1="-73.66" y1="132.08" x2="-73.66" y2="137.16" width="0.1524" layer="94"/>
 <text x="-83.82" y="134.62" size="1.778" layer="94">MCU</text>
 <text x="114.3" y="134.62" size="1.778" layer="94">Motor Drive Circuit</text>
-<text x="63.5" y="134.62" size="1.778" layer="94">Inputs / Outputs</text>
+<text x="55.88" y="134.62" size="1.778" layer="94">Inputs / Outputs</text>
 <wire x1="-86.36" y1="43.18" x2="-43.18" y2="43.18" width="0.1524" layer="94"/>
 <wire x1="-43.18" y1="43.18" x2="-43.18" y2="50.8" width="0.1524" layer="94"/>
 <text x="-83.82" y="45.72" size="1.778" layer="94">Programming Port</text>
@@ -27880,22 +27879,26 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/289/st-nmj6hcd2-1842677.p
 <wire x1="-43.18" y1="5.08" x2="-43.18" y2="-43.18" width="0.1524" layer="94"/>
 <wire x1="-43.18" y1="-43.18" x2="-86.36" y2="-43.18" width="0.1524" layer="94"/>
 <text x="-83.82" y="7.62" size="1.778" layer="94">Crystal Oscillator</text>
-<wire x1="111.76" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="94"/>
-<wire x1="93.98" y1="63.5" x2="93.98" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="111.76" y1="132.08" x2="53.34" y2="132.08" width="0.1524" layer="94"/>
+<wire x1="93.98" y1="63.5" x2="93.98" y2="60.96" width="0.1524" layer="94"/>
+<wire x1="93.98" y1="60.96" x2="93.98" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="93.98" y1="12.7" x2="177.8" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="93.98" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="94"/>
-<text x="78.74" y="66.04" size="1.778" layer="94">Calibration</text>
+<text x="96.52" y="60.96" size="1.778" layer="94">Calibration</text>
 <text x="-40.64" y="45.72" size="1.778" layer="94" ratio="6">Power Supply</text>
 <wire x1="111.76" y1="63.5" x2="177.8" y2="63.5" width="0.1524" layer="94"/>
 <wire x1="-86.36" y1="12.7" x2="-43.18" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="-43.18" y1="12.7" x2="-43.18" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="-43.18" y1="5.08" x2="-86.36" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="93.98" y1="63.5" x2="60.96" y2="63.5" width="0.1524" layer="94"/>
+<wire x1="93.98" y1="63.5" x2="53.34" y2="63.5" width="0.1524" layer="94"/>
 <wire x1="111.76" y1="132.08" x2="111.76" y2="63.5" width="0.1524" layer="94"/>
-<wire x1="-43.18" y1="50.8" x2="60.96" y2="50.8" width="0.1524" layer="94"/>
-<wire x1="60.96" y1="50.8" x2="60.96" y2="63.5" width="0.1524" layer="94"/>
-<wire x1="-43.18" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="94"/>
-<wire x1="60.96" y1="43.18" x2="60.96" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="-43.18" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="50.8" x2="53.34" y2="63.5" width="0.1524" layer="94"/>
+<wire x1="-43.18" y1="43.18" x2="53.34" y2="43.18" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="43.18" x2="53.34" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="93.98" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="94"/>
+<wire x1="111.76" y1="60.96" x2="111.76" y2="63.5" width="0.1524" layer="94"/>
+<wire x1="53.34" y1="132.08" x2="53.34" y2="137.16" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="2.54" y="91.44" smashed="yes">
@@ -27916,11 +27919,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/289/st-nmj6hcd2-1842677.p
 <attribute name="MF" x="-71.12" y="-15.24" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-71.12" y="-15.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SLOW" gate="G$1" x="144.78" y="50.8" smashed="yes">
-<attribute name="VALUE" x="142.24" y="48.26" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_NEWARK" x="144.78" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="144.78" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="144.78" y="50.8" size="1.778" layer="96" display="off"/>
+<instance part="SLOW" gate="G$1" x="142.24" y="43.18" smashed="yes">
+<attribute name="VALUE" x="139.7" y="40.64" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_NEWARK" x="142.24" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="142.24" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="142.24" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="-86.36" y="-43.18" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="76.2" y="-43.18" smashed="yes">
@@ -27933,14 +27936,14 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/289/st-nmj6hcd2-1842677.p
 <instance part="SUPPLY3" gate="GND" x="-38.1" y="111.76" smashed="yes">
 <attribute name="VALUE" x="-45.085" y="111.125" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="GND" x="127" y="17.78" smashed="yes">
-<attribute name="VALUE" x="125.095" y="14.605" size="1.778" layer="96"/>
+<instance part="SUPPLY4" gate="GND" x="152.4" y="15.24" smashed="yes">
+<attribute name="VALUE" x="150.495" y="12.065" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="104.14" y="76.2" smashed="yes">
 <attribute name="VALUE" x="97.155" y="73.025" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="GND" x="144.78" y="40.64" smashed="yes">
-<attribute name="VALUE" x="145.415" y="37.465" size="1.778" layer="96"/>
+<instance part="SUPPLY7" gate="GND" x="142.24" y="33.02" smashed="yes">
+<attribute name="VALUE" x="142.875" y="29.845" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY8" gate="GND" x="-68.58" y="-5.08" smashed="yes"/>
 <instance part="SUPPLY9" gate="GND" x="-68.58" y="-30.48" smashed="yes"/>
@@ -27998,8 +28001,8 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/289/st-nmj6hcd2-1842677.p
 <instance part="P+3" gate="1" x="-60.96" y="86.36" smashed="yes">
 <attribute name="VALUE" x="-63.5" y="81.28" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+5" gate="1" x="144.78" y="60.96" smashed="yes">
-<attribute name="VALUE" x="142.24" y="55.88" size="1.778" layer="96" rot="R90"/>
+<instance part="P+5" gate="1" x="142.24" y="53.34" smashed="yes">
+<attribute name="VALUE" x="139.7" y="48.26" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+6" gate="1" x="-30.48" y="111.76" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="109.22" size="1.778" layer="96" rot="R180"/>
@@ -28026,27 +28029,27 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/289/st-nmj6hcd2-1842677.p
 <attribute name="MF" x="83.82" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="83.82" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="CAL._HEADER" gate="G$1" x="142.24" y="22.86" smashed="yes">
-<attribute name="NAME" x="128.27" y="28.575" size="1.778" layer="95"/>
-<attribute name="VALUE" x="135.89" y="17.78" size="1.778" layer="96"/>
-<attribute name="OC_NEWARK" x="142.24" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="142.24" y="22.86" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="142.24" y="22.86" size="1.778" layer="96" display="off"/>
+<instance part="CAL._HEADER" gate="G$1" x="167.64" y="20.32" smashed="yes">
+<attribute name="NAME" x="153.67" y="26.035" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="15.24" size="1.778" layer="96"/>
+<attribute name="OC_NEWARK" x="167.64" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="167.64" y="20.32" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="167.64" y="20.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="GND" x="-48.26" y="109.22" smashed="yes">
 <attribute name="VALUE" x="-55.245" y="108.585" size="1.778" layer="96"/>
 </instance>
-<instance part="FAST" gate="G$1" x="101.6" y="50.8" smashed="yes">
-<attribute name="VALUE" x="99.06" y="48.26" size="1.778" layer="96" rot="R90"/>
-<attribute name="OC_NEWARK" x="101.6" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="101.6" y="50.8" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="101.6" y="50.8" size="1.778" layer="96" display="off"/>
+<instance part="FAST" gate="G$1" x="99.06" y="43.18" smashed="yes">
+<attribute name="VALUE" x="96.52" y="40.64" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_NEWARK" x="99.06" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUPPLY6" gate="GND" x="101.6" y="40.64" smashed="yes">
-<attribute name="VALUE" x="102.235" y="37.465" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="GND" x="99.06" y="33.02" smashed="yes">
+<attribute name="VALUE" x="99.695" y="29.845" size="1.778" layer="96"/>
 </instance>
-<instance part="P+9" gate="1" x="101.6" y="60.96" smashed="yes">
-<attribute name="VALUE" x="99.06" y="55.88" size="1.778" layer="96" rot="R90"/>
+<instance part="P+9" gate="1" x="99.06" y="53.34" smashed="yes">
+<attribute name="VALUE" x="96.52" y="48.26" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="OPTOISOLATOR" gate="G$1" x="127" y="111.76" smashed="yes">
 <attribute name="NAME" x="121.92" y="114.3" size="1.27" layer="95"/>
@@ -28330,11 +28333,9 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/289/st-nmj6hcd2-1842677.p
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
-<wire x1="127" y1="20.32" x2="127" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="127" y1="22.86" x2="139.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="17.78" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="20.32" x2="165.1" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="CAL._HEADER" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="22.86" x2="142.24" y2="25.4" width="0.1524" layer="91"/>
-<junction x="139.7" y="22.86"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
@@ -28551,8 +28552,8 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/289/st-nmj6hcd2-1842677.p
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC3(ADC3)"/>
-<wire x1="27.94" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
-<label x="33.02" y="111.76" size="1.778" layer="95"/>
+<wire x1="27.94" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
+<label x="30.48" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPEEDPIN" class="0">
@@ -28570,44 +28571,44 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/289/st-nmj6hcd2-1842677.p
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC4(ADC4/SDA)"/>
-<wire x1="27.94" y1="109.22" x2="45.72" y2="109.22" width="0.1524" layer="91"/>
-<label x="33.02" y="109.22" size="1.778" layer="95"/>
+<wire x1="27.94" y1="109.22" x2="43.18" y2="109.22" width="0.1524" layer="91"/>
+<label x="30.48" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CALIBRATIONPIN" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC5(ADC5/SCL)"/>
-<wire x1="27.94" y1="106.68" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
-<label x="33.02" y="106.68" size="1.778" layer="95"/>
+<wire x1="27.94" y1="106.68" x2="43.18" y2="106.68" width="0.1524" layer="91"/>
+<label x="30.48" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CAL._HEADER" gate="G$1" pin="1"/>
-<wire x1="139.7" y1="25.4" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
-<label x="111.76" y="25.4" size="1.778" layer="95"/>
+<wire x1="165.1" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
+<label x="137.16" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAL_LOW_SIGNAL" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC0(ADC0)"/>
-<wire x1="27.94" y1="119.38" x2="40.64" y2="119.38" width="0.1524" layer="91"/>
-<label x="33.02" y="119.38" size="1.778" layer="95"/>
+<wire x1="27.94" y1="119.38" x2="38.1" y2="119.38" width="0.1524" layer="91"/>
+<label x="30.48" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SLOW" gate="G$1" pin="S"/>
-<wire x1="149.86" y1="50.8" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
-<label x="154.94" y="50.8" size="1.778" layer="95"/>
+<wire x1="147.32" y1="43.18" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
+<label x="147.32" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAL_HIGH_SIGNAL" class="0">
 <segment>
 <pinref part="FAST" gate="G$1" pin="S"/>
-<wire x1="106.68" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
-<label x="111.76" y="50.8" size="1.778" layer="95"/>
+<wire x1="104.14" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
+<label x="104.14" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC1(ADC1)"/>
-<wire x1="27.94" y1="116.84" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
-<label x="33.02" y="116.84" size="1.778" layer="95"/>
+<wire x1="27.94" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
+<label x="30.48" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
