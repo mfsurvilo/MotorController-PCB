@@ -1,0 +1,12 @@
+Version Tracking
+
+V5.0 -	Updated footprints, Reduced Mounting hole sizes
+	Used io pins to ground the power indicator lights.
+	Reduced pad size for AC in 
+V5.1 - 7/24 
+	Placed parts, deleted pin break to pins . 
+	Routed alt pins from TRS jack into MCU for future iteration. 
+	Decreased board size. Changed footprint of motor connector to have holes.  
+	Started routing 
+	
+	
