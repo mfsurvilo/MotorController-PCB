@@ -9,4 +9,8 @@ V5.1 - 7/24
 	Decreased board size. Changed footprint of motor connector to have holes.  
 	Started routing 
 	
+V5.2 - 8/10
+	Moved a few parts.
+	Updated the footprint on the 5V PS
+	Rearranged text and resized it.
 	

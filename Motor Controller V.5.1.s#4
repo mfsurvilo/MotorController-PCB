@@ -26185,6 +26185,7 @@ mates with pn 770017-1</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26395,11 +26396,11 @@ mates with pn 770017-1</description>
 <instance part="GND2" gate="1" x="152.4" y="104.14" smashed="yes">
 <attribute name="VALUE" x="149.86" y="104.14" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="MOTOR_CONNECTOR" gate="G$1" x="152.4" y="73.66" smashed="yes" rot="MR180">
-<attribute name="NAME" x="147.6756" y="79.7814" size="1.016" layer="95" ratio="6" rot="SMR180"/>
-<attribute name="OC_NEWARK" x="152.4" y="73.66" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MF" x="152.4" y="73.66" size="1.778" layer="96" rot="MR180" display="off"/>
-<attribute name="MPN" x="152.4" y="73.66" size="1.778" layer="96" rot="MR180" display="off"/>
+<instance part="MOTOR_CONNECTOR" gate="G$1" x="152.4" y="73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="157.1244" y="79.7814" size="1.016" layer="95" ratio="6" rot="SR180"/>
+<attribute name="OC_NEWARK" x="152.4" y="73.66" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="152.4" y="73.66" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="152.4" y="73.66" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="1N5408" gate="1" x="149.86" y="86.36" smashed="yes">
 <attribute name="VALUE" x="147.32" y="81.5086" size="1.778" layer="96"/>
@@ -26603,6 +26604,9 @@ mates with pn 770017-1</description>
 <attribute name="OC_NEWARK" x="114.3" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="114.3" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="114.3" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="GND5" gate="1" x="134.62" y="0" smashed="yes">
+<attribute name="VALUE" x="132.08" y="0" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -26963,6 +26967,11 @@ mates with pn 770017-1</description>
 <junction x="71.12" y="22.86"/>
 <pinref part="GND4" gate="1" pin="GNDA"/>
 </segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="GND5" gate="1" pin="GNDA"/>
+<wire x1="134.62" y1="2.54" x2="127" y2="2.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -26987,8 +26996,8 @@ mates with pn 770017-1</description>
 <pinref part="1N5408" gate="1" pin="A"/>
 <wire x1="147.32" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>
 <junction x="137.16" y="86.36"/>
-<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="76.2" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOTOR+" class="0">
@@ -27000,8 +27009,8 @@ mates with pn 770017-1</description>
 <wire x1="160.02" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="76.2" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <junction x="160.02" y="86.36"/>
-<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="76.2" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="76.2" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5VHIGHSIDE" class="0">
@@ -27211,11 +27220,6 @@ mates with pn 770017-1</description>
 <pinref part="IC1" gate="G$1" pin="PD5(T1)"/>
 <wire x1="27.94" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
 <label x="30.48" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="137.16" y1="2.54" x2="127" y2="2.54" width="0.1524" layer="91"/>
-<label x="124.46" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5VINDGND" class="0">

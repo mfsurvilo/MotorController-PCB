@@ -25388,6 +25388,8 @@ grid 10.2 mm, outline 6.4 x 13.3 mm</description>
 <pad name="B3,0" x="0" y="0" drill="3" diameter="5.842" shape="square"/>
 </package>
 <package name="MATE-N-LOK_2PIN_CONNECTOR">
+<circle x="-10.541" y="0" radius="1.905" width="0.127" layer="21"/>
+<circle x="10.541" y="0" radius="1.905" width="0.127" layer="21"/>
 <wire x1="-15.8115" y1="12.827" x2="-15.8115" y2="-1.905" width="0.127" layer="21"/>
 <wire x1="15.8115" y1="12.827" x2="15.8115" y2="-1.778" width="0.127" layer="21"/>
 <wire x1="-10.541" y1="-4.445" x2="10.541" y2="-4.445" width="0.127" layer="21"/>
@@ -25396,8 +25398,6 @@ grid 10.2 mm, outline 6.4 x 13.3 mm</description>
 <wire x1="10.541" y1="-4.445" x2="15.8115" y2="-1.905" width="0.127" layer="21"/>
 <pad name="P$1" x="-3.175" y="-2.54" drill="1.905"/>
 <pad name="P$2" x="3.175" y="-2.54" drill="1.905"/>
-<hole x="-10.541" y="0" drill="3.81"/>
-<hole x="10.541" y="0" drill="3.81"/>
 </package>
 </packages>
 <packages3d>
@@ -26185,7 +26185,6 @@ mates with pn 770017-1</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_NEWARK" value="unknown"/>
 </part>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26605,9 +26604,6 @@ mates with pn 770017-1</description>
 <attribute name="MF" x="114.3" y="114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="114.3" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND5" gate="1" x="134.62" y="0" smashed="yes">
-<attribute name="VALUE" x="132.08" y="0" size="1.778" layer="96" rot="R180"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -26700,7 +26696,7 @@ mates with pn 770017-1</description>
 <wire x1="-71.12" y1="-20.32" x2="-60.96" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-60.96" y1="-20.32" x2="-50.8" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-58.42" y="-20.32" size="1.778" layer="95"/>
+<label x="-53.34" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
@@ -26714,7 +26710,7 @@ mates with pn 770017-1</description>
 <wire x1="-71.12" y1="-10.16" x2="-60.96" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="-60.96" y1="-10.16" x2="-50.8" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-58.42" y="-10.16" size="1.778" layer="95"/>
+<label x="-53.34" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
@@ -26967,11 +26963,6 @@ mates with pn 770017-1</description>
 <junction x="71.12" y="22.86"/>
 <pinref part="GND4" gate="1" pin="GNDA"/>
 </segment>
-<segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="GND5" gate="1" pin="GNDA"/>
-<wire x1="134.62" y1="2.54" x2="127" y2="2.54" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -27006,11 +26997,11 @@ mates with pn 770017-1</description>
 <wire x1="152.4" y1="86.36" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <label x="154.94" y="86.36" size="1.27" layer="95" ratio="6"/>
+<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="86.36" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="76.2" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="76.2" x2="160.02" y2="86.36" width="0.1524" layer="91"/>
 <junction x="160.02" y="86.36"/>
-<pinref part="MOTOR_CONNECTOR" gate="G$1" pin="1"/>
-<wire x1="152.4" y1="76.2" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5VHIGHSIDE" class="0">
@@ -27018,13 +27009,6 @@ mates with pn 770017-1</description>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="2.54" x2="99.06" y2="2.54" width="0.1524" layer="91"/>
 <label x="96.52" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="VOLTAGE_REGULATOR1" gate="A1" pin="VO"/>
-<pinref part="OK1" gate="G$1" pin="COL"/>
-<wire x1="137.16" y1="129.54" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
-<label x="137.16" y="116.84" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -27207,6 +27191,14 @@ mates with pn 770017-1</description>
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="VOLTAGE_REGULATOR1" gate="A1" pin="VO"/>
+<pinref part="OK1" gate="G$1" pin="COL"/>
+<wire x1="137.16" y1="129.54" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="114.3" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
@@ -27219,6 +27211,11 @@ mates with pn 770017-1</description>
 <pinref part="IC1" gate="G$1" pin="PD5(T1)"/>
 <wire x1="27.94" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
 <label x="30.48" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="137.16" y1="2.54" x2="127" y2="2.54" width="0.1524" layer="91"/>
+<label x="124.46" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5VINDGND" class="0">
